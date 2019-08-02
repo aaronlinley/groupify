@@ -1,0 +1,30 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.create-playlist {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
+
+.btn-spotify {
+  background-color: $spotify;
+  color: #fff;
+
+  &:hover {
+    background-color: darken($spotify, 5%);
+    color: #fff;
+  }
+}
